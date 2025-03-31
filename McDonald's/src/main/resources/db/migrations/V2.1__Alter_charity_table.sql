@@ -1,0 +1,2 @@
+ALTER TABLE `mcdonalds`.`charity`
+CHANGE COLUMN `id` `id` INT NOT NULL AUTO_INCREMENT ;

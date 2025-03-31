@@ -1,0 +1,40 @@
+/* .menuItem::before {
+    -fx-content: '';
+    -fx-position: absolute;
+    -fx-top: 0;
+    -fx-left: 0;
+    -fx-bottom: 0;
+    -fx-right: 0;
+    -fx-z-index: -1;
+    -fx-background-color: white;
+}
+
+.menuItem {
+    -fx-background-color: #FFC72C;
+    -fx-z-index: 1;
+    -fx-transition: 0.8s;
+    -fx-cursor: pointer;
+}
+
+.menuItem:hover {
+    -fx-background-color: white;
+} */
+
+.button {
+    -fx-background-color: #FFC72C; /* Orange background color */
+    -fx-transition-property: -fx-background-color;
+    -fx-transition-duration: 3s;
+    -fx-transition-timing-function: linear;
+    -fx-cursor: pointer;
+    -fx-background-insets: 0, 0 0 0 100%; /* Transition from left side */
+}
+
+.button:hover {
+    -fx-cursor: pointer;
+    -fx-background-color: white; /* White background color on hover */
+    -fx-transition-property: -fx-background-color;
+    -fx-transition-duration: 3s;
+    -fx-transition-timing-function: linear;
+}
+
+

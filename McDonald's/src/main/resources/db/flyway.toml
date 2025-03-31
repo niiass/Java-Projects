@@ -1,0 +1,30 @@
+# Change according to your working space
+
+databaseType = "MySql"
+id = "690f703d-382c-44ef-8874-45f3721488c0"
+name = "db"
+
+[flyway]
+locations = [ "filesystem:migrations" ]
+mixed = true
+outOfOrder = true
+schemaModelLocation = "schema-model"
+validateMigrationNaming = true
+
+  [flyway.check]
+  majorTolerance = 0
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[redgateCompare.mysql.options.ignores]
+ignoreNewlinesInTextObjects = "off"
+
+[environments.mcd]
+url = "jdbc:mysql://127.0.0.1:3306"
+schemas = [ "mcdonalds" ]
+displayName = "McDonald's"

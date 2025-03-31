@@ -1,0 +1,13 @@
+.text {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Unicode MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.text:hover {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Unicode MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
