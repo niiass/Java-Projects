@@ -1,6 +1,17 @@
 # 🍔 McDonald's Windows Application
 
-Welcome to the **McDonald's Windows Application**! 🚀 This Java & FXML-powered project brings the **McDonald's experience** right to your desktop. Built with **IntelliJ** and **Scene Builder**, it dynamically fetches data from a **database** using **Flyway** for seamless migrations. No need to set up the database manually—just configure `flyway.toml` and migrate! 🔄
+Welcome to the **McDonald's Windows Application**! 🚀 This Java & FXML-powered project brings the **McDonald's experience** right to your desktop. Built with **IntelliJ** and **Scene Builder**, it dynamically fetches data from a **database** using **Flyway** for seamless migrations.
+
+---
+
+## 🛠️ Technologies Used
+- **Java** - Core programming language  
+- **JavaFX & FXML** - UI Development
+- **Scene Builder** - Visual UI design tool
+- **MySQL** - Relational database
+- **Flyway** - Database migration and version control
+- **JDBC** - Database connectivity
+- **Maven** - Project build and dependency management  
 
 ---
 
